@@ -1,0 +1,56 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+.bg-lighter {
+  background-color: #FFFFFF;
+}
+
+.clear {
+  clear: both;
+  overflow: hidden;
+}
+
+.nav-link{
+  font-size: 16px;  
+}
+
+.container-main{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.content{
+  padding: 30px;
+}
+
+li a.nav-link {
+  color:white !important;
+}
+
+.imageHolder{
+  display: flex;
+  height: 300px;
+}
+
+.imageHolder img {
+  width: auto;
+  height: 175px;
+  margin: auto;
+}
+
+.col-md-4{
+  margin-bottom: 20px !important;
+}
+
